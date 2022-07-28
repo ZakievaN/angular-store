@@ -1,21 +1,17 @@
 export const products = [
   {
-    name: 'Пирог лимонный',
+    name: 'Interstellar',
     price: 15,
-    description: 'Пирог с лимонным пюре и сахаром',
+    description:
+      'A team of explorers travel through a wormhole in space in an attempt to ensure humanitys survival.',
     imageUrl: '/assets/img/lemonCake.jpg',
   },
   {
-    name: 'Пирог трехслойный',
+    name: 'Tenet',
     price: 13,
-    description: 'Пирог с сухофруктами по слоям - курага, чернослив, лимон',
+    description:
+      'Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.',
     imageUrl: '/assets/img/threeLayeredCake.jpg',
-  },
-  {
-    name: 'Слойка с яблоками',
-    price: 3,
-    description: '',
-    imageUrl: '/assets/img/lemonCake.jpg',
   },
 ];
 

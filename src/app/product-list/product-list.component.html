@@ -1,4 +1,4 @@
-<h2>Выпечка</h2>
+<h2>Colection films</h2>
 
 <div *ngFor="let product of products; index as productId">
   <h3>
@@ -10,9 +10,9 @@
     </a>
   </h3>
 
-  <p *ngIf="product.description">Описание: {{ product.description }}</p>
+  <p *ngIf="product.description">Description: {{ product.description }}</p>
 
-  <button (click)="addToCart(product)">В корзину</button>
+  <button (click)="addToCart(product)">To cart</button>
   <app-product-alerts [product]="product" (notify)="onNotify()">
   </app-product-alerts>
 </div>

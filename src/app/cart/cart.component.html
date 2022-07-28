@@ -1,7 +1,7 @@
-<h3>Корзина</h3>
+<h3>Cart</h3>
 
 <p>
-  <a routerLink="/shipping">Доставка</a>
+  <a routerLink="/shipping">Shipping</a>
 </p>
 
 <div class="cart-item" *ngFor="let item of items">
@@ -11,14 +11,14 @@
 
 <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
   <div>
-    <label>ФИО</label>
-    <input type="text" formControlName="name" />
+    <label>Name</label>
+    <input type="name" max="100" required />
   </div>
 
   <div>
-    <label>Адрес</label>
-    <input type="text" formControlName="address" />
+    <label>Address</label>
+    <input type="address" max="100" required />
   </div>
 
-  <button class="button" type="submit">Оформить заказ</button>
+  <button class="button" type="submit">Submit</button>
 </form>
