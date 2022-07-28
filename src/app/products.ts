@@ -3,7 +3,7 @@ export const products = [
     name: 'Пирог лимонный',
     price: 799,
     description: 'Пирог с лимонным пюре и сахаром',
-    imageUrl: "img/phones/motorola-defy-with-motoblur.0.jpg"
+    imageUrl: 'assets/img/lemonCake.jpg',
   },
   {
     name: 'Пирог трехслойный',
