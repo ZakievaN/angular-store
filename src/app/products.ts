@@ -1,21 +1,21 @@
 export const products = [
   {
-    name: 'Phone XL',
+    name: 'Пирог лимонный',
     price: 799,
-    description: 'A large phone with one of the best screens'
+    description: 'Пирог с лимонным пюре и сахаром',
+    imageUrl: "img/phones/motorola-defy-with-motoblur.0.jpg"
   },
   {
-    name: 'Phone Mini',
+    name: 'Пирог трехслойный',
     price: 699,
-    description: 'A great phone with one of the best cameras'
+    description: 'Пирог с сухофруктами по слоям - курага, чернослив, орехи',
   },
   {
-    name: 'Phone Standard',
-    price: 299,
-    description: ''
-  }
+    name: 'Слойка с яблоками',
+    price: 100,
+    description: '',
+  },
 ];
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
