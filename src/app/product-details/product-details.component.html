@@ -2,5 +2,5 @@
   <h3>{{ product.name }}</h3>
   <h4>{{ product.price | currency }}</h4>
   <p>{{ product.description }}</p>
-  <img src="{{ imageSrc }}" alt="{{ imageAlt }}" />
+  <img src="{{ product.imageUrl }}" alt="{{ product.name }}" />
 </div>

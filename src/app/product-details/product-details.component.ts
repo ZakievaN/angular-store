@@ -11,7 +11,7 @@ import { products } from '../products';
 export class ProductDetailsComponent implements OnInit {
   product;
   imageSrc = '{{ product.imageUrl }}';
-  imageAlt = 'Cake';
+  imageAlt = "{{ product.name }}";
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
