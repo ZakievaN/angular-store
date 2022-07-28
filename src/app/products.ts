@@ -8,12 +8,14 @@ export const products = [
   {
     name: 'Пирог трехслойный',
     price: 699,
-    description: 'Пирог с сухофруктами по слоям - курага, чернослив, орехи',
+    description: 'Пирог с сухофруктами по слоям - курага, чернослив, лимон',
+    imageUrl: 'assets/img/lemonCake.jpg',
   },
   {
     name: 'Слойка с яблоками',
     price: 100,
     description: '',
+    imageUrl: 'assets/img/lemonCake.jpg',
   },
 ];
 
