@@ -12,7 +12,6 @@
 
   <p *ngIf="product.description">Описание: {{ product.description }}</p>
 
-  <button (click)="share()">Поделиться</button>
   <button (click)="addToCart(product)">В корзину</button>
   <app-product-alerts [product]="product" (notify)="onNotify()">
   </app-product-alerts>

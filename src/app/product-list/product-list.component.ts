@@ -10,16 +10,10 @@ import { CartService } from '../cart.service';
 export class ProductListComponent {
   products = products;
 
-  constructor(
-    private cartService: CartService
-  ) {}
+  constructor(private cartService: CartService) {}
 
   addToCart(product) {
     this.cartService.addToCart(product);
-  }
-
-  share() {
-    window.alert('The product has been shared!');
   }
 
   onNotify() {
